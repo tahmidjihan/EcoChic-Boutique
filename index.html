@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="header min-h-[70vh]">
+    <header class="header min-h-[90vh]">
       <div class="navbar bg-base-100">
         <div class="navbar-start">
           <div class="dropdown">
@@ -57,7 +57,6 @@
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal px-1">
             <li><a>Item 1</a></li>
-            <li></li>
             <li><a>Item 2</a></li>
           </ul>
         </div>
@@ -65,23 +64,82 @@
           <a class="btn btn-warning">Shop</a>
         </div>
       </div>
-      <div class="header-main text-white m-20 w-[50vw]">
-        <h1 class="text-5xl font-bold">
-          Modesty For Everyone; The trend never Ends
-        </h1>
-        <p>
-          Modesty or Modest clothing is for everyone; No matter religion,
-          society, Gender, class. Modesty is The trend never end. And we took
-          Modesty and eco-friendliness in one place. At Only EchoChic!
-        </p>
-        <div class="btn btn-warning my-5">Shop now</div>
+      <div class="flex flex-col align-middle justify-center">
+        <div class="header-main text-white mt-64 mx-24 w-[70vw] lg:w-[509px]">
+          <h1 class="text-5xl font-bold">
+            Modesty For Everyone; The trend never Ends
+          </h1>
+          <p>
+            Modesty or Modest clothing is for everyone; No matter religion,
+            society, Gender, class. Modesty is The trend never end. And we took
+            Modesty and eco-friendliness in one place. At Only EchoChic!
+          </p>
+          <div class="btn btn-warning my-5 max-w-[200px]">Shop now</div>
+        </div>
       </div>
     </header>
-    <main class="py-20">
+    <main class="py-20 mx-auto">
       <section id="featured">
         <div class="section-header mx-20">
           <h1 class="text-4xl font-bold">Featured products</h1>
-          <a href="#" class="read-more">Read More</a>
+          <p class="block">
+            featured Products are our most searched or most demanded products.
+          </p>
+          <a href="#" class="read-more"
+            >See More <i class="fa-solid fa-arrow-right"></i
+          ></a>
+        </div>
+
+        <div
+          class="featured-main flex flex-wrap justify-start align-middle mx-auto my-16"
+        >
+          <div class="card bg-base-100 w-96 shadow-xl mx-auto my-10">
+            <figure class="w-full h-[300px] overflow-hidden">
+              <img src="imgs/featured-1.png" alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Victorian Dress</h2>
+              <p>
+                Modest victorian dresses. Widely used as formal Attire In
+                wedding parties and other special occasion.
+              </p>
+              <div class="card-actions justify-end">
+                <button class="btn btn-warning">Buy Now</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card bg-base-100 w-96 shadow-xl mx-auto my-10">
+            <figure class="w-full overflow-hidden">
+              <img src="imgs/featured-2.png" alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Scarves</h2>
+              <p>
+                Modest cotton scarves. Widely used as casual attire in outdoor
+                activities, daily wear, and other relaxed occasions.
+              </p>
+              <div class="card-actions justify-end">
+                <button class="btn btn-warning">Buy Now</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card bg-base-100 w-96 shadow-xl mx-auto my-10">
+            <figure class="w-full overflow-hidden">
+              <img src="imgs/featured-3.png" alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Coats</h2>
+              <p>
+                Classic wool coats. Frequently worn as winter outerwear in
+                formal settings, casual walks, and other chilly environments.
+              </p>
+              <div class="card-actions justify-end">
+                <button class="btn btn-warning">Buy Now</button>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>
