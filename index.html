@@ -22,6 +22,14 @@
   </head>
   <body>
     <header class="header min-h-[90vh]">
+      <style>
+        .header {
+          background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)),
+            url('imgs/banner.png');
+          background-size: cover;
+          background-position: right;
+        }
+      </style>
       <div class="navbar bg-base-100">
         <div class="navbar-start">
           <div class="dropdown">
@@ -80,7 +88,7 @@
     </header>
     <main class="py-20 mx-auto">
       <section id="featured">
-        <div class="section-header mx-20">
+        <div class="section-header mx-32">
           <h1 class="text-4xl font-bold">Featured products</h1>
           <p class="block">
             featured Products are our most searched or most demanded products.
@@ -137,6 +145,92 @@
               </p>
               <div class="card-actions justify-end">
                 <button class="btn btn-warning">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="blogs">
+        <div class="section-header mx-48 my-20">
+          <h1 class="text-4xl font-bold">Blog</h1>
+          <p class="block">
+            These is our blog's latest posts. Click see more for more
+            information.
+          </p>
+          <a href="#" class="read-more"
+            >See More <i class="fa-solid fa-arrow-right"></i
+          ></a>
+        </div>
+        <div class="flex justify-around flex-wrap mx-20">
+          <div class="card bg-base-100 w-96 shadow-xl">
+            <figure>
+              <img src="imgs/blog-1.png" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">
+                10 ways to style a Scarf!
+                <div class="badge badge-warning">NEW</div>
+              </h2>
+              <p>
+                Scarves are a casual wear used in winter or a sign of modesty...
+              </p>
+              <a href="#" class="hover:underline">Read more...</a>
+              <div class="flex justify-between">
+                <div class="badge badge-outline badge-secondary">
+                  12 hours ago
+                </div>
+                <div class="card-actions justify-end">
+                  <div class="badge badge-outline">Fashion</div>
+                  <div class="badge badge-outline">Products</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card bg-base-100 w-96 shadow-xl">
+            <figure>
+              <img src="imgs/blog-2.png" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">
+                10 Girls modest street wears!
+                <div class="badge badge-warning">NEW</div>
+              </h2>
+              <p>
+                Modest street wears can be hard to find where trending street
+                wears...
+              </p>
+              <a href="#" class="hover:underline">Read more...</a>
+              <div class="flex justify-between">
+                <div class="badge badge-outline badge-warning">yesterday</div>
+                <div class="card-actions justify-end">
+                  <div class="badge badge-outline">Fashion</div>
+                  <div class="badge badge-outline">Products</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card bg-base-100 w-96 shadow-xl">
+            <figure>
+              <img src="imgs/blog-3.png" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">
+                Be modest man in street
+                <div class="badge badge-warning">NEW</div>
+              </h2>
+              <p>
+                Being a Modest man in street; you can find it hard. cause no one
+                is modest there...
+              </p>
+              <a href="#" class="hover:underline">Read more...</a>
+              <div class="flex justify-between">
+                <div class="badge badge-outline badge-warning">1 week ago</div>
+                <div class="card-actions justify-end">
+                  <div class="badge badge-outline">Fashion</div>
+                  <div class="badge badge-outline">Products</div>
+                </div>
               </div>
             </div>
           </div>
